@@ -4,6 +4,7 @@ import GifApp from '../assets/gifapp.png'
 import CriptoCoin from '../assets/criptocoin.png'
 import HouseMark from '../assets/housemark.png'
 import Datafin from '../assets/datafin.png'
+import BeastEats from '../assets/BestEats.png'
 
 
 const Work = () => {
@@ -148,6 +149,32 @@ const Work = () => {
                 </div>
               </div>
             </div>
+
+
+            <div
+            style={{ backgroundImage: `url(${BeastEats})` }}
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            >
+              {/* Hover Effects */}
+              <div className='opacity-0 group-hover:opacity-100'>
+                <span className='text-2xl font-bold text-white tracking-wider'>
+                  Best Eats
+                </span>
+                <div className='pt-8 text-center'>
+                  <a target="_blank" href='https://euphonious-twilight-49c601.netlify.app/'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                      Demo
+                    </button>
+                  </a>
+                  <a target="_blank" href='https://github.com/Heidelol/BestEatApp'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
 
 
 
